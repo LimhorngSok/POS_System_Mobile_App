@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">បញ្ជីជំពាក់លុយ</string>
+    <string name="name">ឈ្មោះ</string>
+    <string name="phone">លលេខទូរស័ព្ទ</string>
+    <string name="address">អាសយដ្ឋាន</string>
+    <string name="amount">ចំនួនលុយ</string>
+    <string name="save">រក្សារទុក</string>
+    <string name="add">បន្ថែម</string>
+</resources>
