@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ListTransactionActivity">
+    tools:context=".ListTransactionActivity"
+    android:background="@color/colorWhite">
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -21,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/colorBlack"
             />
         <EditText
             android:layout_marginBottom="30dp"
@@ -31,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Phone Number"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/colorBlack"
             />
         <EditText
             android:layout_marginBottom="30dp"
@@ -41,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Address"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/colorBlack"
             />
         <EditText
             android:layout_marginBottom="30dp"

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CreateTransactionActivity">
+    tools:context=".CreateTransactionActivity"
+    android:background="@color/colorWhite">
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -19,12 +20,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/colorBlack"
             android:text="Amount"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="100,000"
+            android:textColorHint="@color/colorBlack"
             android:drawableStart="$"
             android:layout_marginBottom="30dp"
             android:drawableLeft="$" />

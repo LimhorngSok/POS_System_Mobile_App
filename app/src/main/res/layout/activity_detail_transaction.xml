@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailTransactionActivity">
+    tools:context=".DetailTransactionActivity"
+    android:background="@color/colorWhite">
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -27,20 +28,20 @@
                 android:layout_marginBottom="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/colorBlack"
                 android:text="Name: Limhorng Sok"/>
             <TextView
                 android:layout_marginBottom="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Phone Number: 015389920"
-                android:textColor="@color/colorPrimary"/>
+                android:textColor="@color/colorBlack"/>
             <TextView
                 android:layout_marginBottom="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Address: Phnom Penh"
-                android:textColor="@color/colorPrimary"/>
+                android:textColor="@color/colorBlack"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -50,7 +51,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/colorBlack"
                 android:text="29/12/2020"/>
         </LinearLayout>
     </LinearLayout>
@@ -64,7 +65,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Amount: $ 100,000"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"/>
         <Button
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
