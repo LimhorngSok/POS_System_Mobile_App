@@ -1,16 +1,16 @@
 package com.example.pos_system;
 
 public class Transaction {
-    private int buyer_id;
+    private String buyer;
     private int amount; //For Khmer Riel in the Future
     private long time;
 
-    public int getBuyer_id() {
-        return buyer_id;
+    public String getBuyer() {
+        return buyer;
     }
 
-    public void setBuyer_id(int buyer_id) {
-        this.buyer_id = buyer_id;
+    public void setBuyer(String buyer) {
+        this.buyer = buyer;
     }
 
     public int getAmount() {
