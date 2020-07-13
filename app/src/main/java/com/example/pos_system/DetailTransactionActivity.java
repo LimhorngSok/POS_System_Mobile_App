@@ -14,9 +14,9 @@ public class DetailTransactionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_transaction);
 
-        name  = findViewById(R.id.name);
-        amount = findViewById(R.id.amount);
-        date =  findViewById(R.id.date);
+        name  = (TextView) findViewById(R.id.name);
+        amount = (TextView) findViewById(R.id.amount);
+        date =  (TextView) findViewById(R.id.date);
 
         String tmpName = getIntent().getStringExtra("name");
         String tmpAmount = getIntent().getStringExtra("amount");

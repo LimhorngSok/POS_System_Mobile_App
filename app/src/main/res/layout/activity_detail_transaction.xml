@@ -25,18 +25,19 @@
             android:layout_weight="1"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/name"
                 android:layout_marginBottom="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorBlack"
-                android:text="Name: Limhorng Sok"/>
-            <TextView
-                android:layout_marginBottom="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Phone Number: 015389920"
                 android:textColor="@color/colorBlack"/>
             <TextView
+                android:id="@+id/phone_number"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"/>
+            <TextView
+                android:id="@+id/address"
                 android:layout_marginBottom="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,10 +50,11 @@
             android:layout_weight="1"
             android:gravity="right">
             <TextView
+                android:id="@+id/date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorBlack"
-                android:text="29/12/2020"/>
+                />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -62,9 +64,9 @@
         android:layout_weight="2"
         android:orientation="vertical">
         <TextView
+            android:id="@+id/amount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Amount: $ 100,000"
             android:textSize="20dp"
             android:textColor="@color/colorBlack"/>
         <Button
