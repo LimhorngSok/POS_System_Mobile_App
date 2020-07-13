@@ -13,6 +13,10 @@ public class BuyerViewHolder extends RecyclerView.ViewHolder {
 
     public BuyerViewHolder(@NonNull View itemView) {
         super(itemView);
+
+        name = itemView.findViewById(R.id.name);
+        phone_number = itemView.findViewById(R.id.phone_number);
+        address = itemView.findViewById(R.id.address);
     }
     public void bind(Buyer buyer){
         name.setText(buyer.getName());

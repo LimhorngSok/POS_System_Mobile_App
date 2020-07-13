@@ -7,18 +7,22 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.volley.Response;
+
 public class TransactionAdapter extends RecyclerView.Adapter<TransactionViewHolder> {
     private Transaction[] transactions;
+    private onTransactionListener onTransactionListener;
 
-    public TransactionAdapter(Transaction[] transactions){
+    public TransactionAdapter(Transaction[] transactions, onTransactionListener onTransactionListener){
         this.transactions = transactions;
+        this.onTransactionListener = onTransactionListener;
     }
     @NonNull
     @Override
     public TransactionViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         View itemView = layoutInflater.inflate(R.layout.view_holder_transaction,parent,false);
-        return  new TransactionViewHolder(itemView);
+        return  new TransactionViewHolder(itemView,onTransactionListener);
     }
 
     @Override
@@ -29,6 +33,9 @@ public class TransactionAdapter extends RecyclerView.Adapter<TransactionViewHold
 
     @Override
     public int getItemCount() {
-        return 0;
+        return transactions.length;
+    }
+    public interface onTransactionListener{
+        void onTransactionClick(int position);
     }
 }

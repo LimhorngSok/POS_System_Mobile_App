@@ -27,9 +27,8 @@
             android:layout_height="wrap_content"
             android:hint="100,000"
             android:textColorHint="@color/colorBlack"
-            android:drawableStart="$"
             android:layout_marginBottom="30dp"
-            android:drawableLeft="$" />
+       />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

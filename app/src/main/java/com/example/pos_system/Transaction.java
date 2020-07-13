@@ -1,31 +1,31 @@
 package com.example.pos_system;
 
 public class Transaction {
-    private String buyer;
-    private int amount; //For Khmer Riel in the Future
-    private long time;
+    private String name;
+    private String amount; //For Khmer Riel in the Future
+    private String date;
 
-    public String getBuyer() {
-        return buyer;
+    public String getName() {
+        return name;
     }
 
-    public void setBuyer(String buyer) {
-        this.buyer = buyer;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getAmount() {
+    public String getAmount() {
         return amount;
     }
 
-    public void setAmount(int amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
 
-    public long getTime() {
-        return time;
+    public String getDate() {
+        return date;
     }
 
-    public void setTime(long time) {
-        this.time = time;
+    public void setDate(String date) {
+        this.date = date;
     }
 }
