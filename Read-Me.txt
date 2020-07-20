@@ -1,0 +1,6 @@
+all json files are located in folder: /json_data
+
+all json files should be in : localhost/android/
+
+api link: localhost/android/Buyer.json
+	  localhost/android/Transaction.json
